@@ -1,0 +1,30 @@
+{
+  "name": "duncrow-gmbh/contentboxes",
+  "description": "Content Boxes Extension",
+  "keywords": [
+    "content",
+    "contao"
+  ],
+  "type": "contao-bundle",
+  "homepage": "https://duncrow.com",
+  "license": "LGPL-3.0+",
+  "authors": [
+    {
+      "name": "Duncrow GmbH",
+      "email": "office@duncrow.com",
+      "homepage": "https://duncrow.com"
+    }
+  ],
+  "require": {
+    "php": "^7.2",
+    "contao/core-bundle": "^4.4"
+  },
+  "autoload": {
+    "psr-4": {
+      "Duncrow\\ContentBoxesBundle\\": "src/"
+    }
+  },
+  "extra": {
+    "contao-manager-plugin": "Duncrow\\ContentBoxesBundle\\ContaoManager\\Plugin"
+  }
+}
